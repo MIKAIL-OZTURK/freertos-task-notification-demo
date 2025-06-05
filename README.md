@@ -7,6 +7,12 @@ Bu projede STM32 mikrodenetleyicisi üzerinde FreeRTOS kullanarak task notificat
 - **RTOS**: FreeRTOS (Classic API)
 - FreeRTOS Task Notification mekanizması (xTaskNotify() - xTaskNotifyWait())
 
+## Uygulama Videosu
+
+
+https://github.com/user-attachments/assets/802cb512-ce88-43e5-b54c-2567ed12d697
+
+
 ## 4. Kod 
 ```c
 #include "FreeRTOS.h"
@@ -95,9 +101,3 @@ static void LedToggleSenderTask(void* pvParameters)
 	}
 }
 ```
-
-## Uygulama Videosu
-
-
-https://github.com/user-attachments/assets/802cb512-ce88-43e5-b54c-2567ed12d697
-
