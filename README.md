@@ -16,8 +16,8 @@ Bu projede STM32 mikrodenetleyicisi üzerinde FreeRTOS kullanarak task notificat
 TaskHandle_t xTaskReceiver = NULL;
 
 #define TASK_PRIORITY_RECEIVER		(tskIDLE_PRIORITY + 2)
-#define TASK_PRIORITY_SENDER		  (tskIDLE_PRIORITY + 1)
-#define TASK_DELAY_MS				       1000
+#define TASK_PRIORITY_SENDER		(tskIDLE_PRIORITY + 1)
+#define TASK_DELAY_MS			1000
 
 
 static void LedHandlerTask(void* pvParameters);
