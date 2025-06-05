@@ -2,10 +2,10 @@
 Bu projede STM32 mikrodenetleyicisi üzerinde FreeRTOS kullanarak task notification ile LED’leri kontrol eden basit bir örnek uygulama geliştirilmiştir.
 
 ## 🔧 Proje Özeti
-- Donanım: STM32F407VG Discovery Board
-- IDE: STM32CubeIDE v1.16.1
-- RTOS: FreeRTOS (Classic API)
-- FreeRTOS Task Notification mekanizması
+- **Donanım**: STM32F407VG Discovery Board
+- **IDE**: STM32CubeIDE v1.16.1
+- **RTOS**: FreeRTOS (Classic API)
+- FreeRTOS Task Notification mekanizması (xTaskNotify() - xTaskNotifyWait())
 
 ## 4. Kod 
 ```c
