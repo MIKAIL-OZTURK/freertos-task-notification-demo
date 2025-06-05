@@ -1,11 +1,11 @@
-# FreeRTOS Task Notification ile LED Kontrolü
-Bu projede STM32 mikrodenetleyicisi üzerinde FreeRTOS kullanarak task notification ile LED’leri kontrol eden basit bir örnek uygulama geliştirilmiştir.
+# FreeRTOS-Task Notification
+This project was developed to illustrate the basic usage of the FreeRTOS Task Notification mechanism.  For inter-task communication, xTaskNotify() and xTaskNotifyWait() functions are used to toggle (blink) LEDs at certain intervals.
 
-## 🔧 Proje Özeti
-- **Donanım**: STM32F407VG Discovery Board
+## 🔧 Project Summary
+- **Hardware**: STM32F407VG Discovery Board
 - **IDE**: STM32CubeIDE v1.16.1
 - **RTOS**: FreeRTOS (Classic API)
-- FreeRTOS Task Notification mekanizması (xTaskNotify() - xTaskNotifyWait())
+- FreeRTOS Task Notification mechanism (xTaskNotify() - xTaskNotifyWait())
 
 ## Uygulama Videosu
 
@@ -13,7 +13,7 @@ Bu projede STM32 mikrodenetleyicisi üzerinde FreeRTOS kullanarak task notificat
 https://github.com/user-attachments/assets/802cb512-ce88-43e5-b54c-2567ed12d697
 
 
-## 4. Kod 
+## 4. Code
 ```c
 #include "FreeRTOS.h"
 #include "task.h"
